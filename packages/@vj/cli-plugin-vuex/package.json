@@ -1,0 +1,31 @@
+{
+  "name": "@vjcli/cli-plugin-vuex",
+  "version": "0.0.0",
+  "description": "Vuex plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimixy/react-cli.git",
+    "directory": "packages/@vjcli/cli-plugin-vuex"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "vuex"
+  ],
+  "author": "jimi、Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimixy/react-cli/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vjcli/cli-plugin-vuex#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@vue/cli-test-utils": "^0.0.0"
+  },
+  "peerDependencies": {
+    "@vjcli/cli-service": "^3.0.0 || ^4.0.0-0"
+  }
+}

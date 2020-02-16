@@ -24,17 +24,17 @@ The version string for the **global** `@vue/cli` version that is invoking the pl
 
 Type: `string`
 
-The version string for the **project local** `@vue/cli-service` version that is invoking the plugin.
+The version string for the **project local** `@vjcli/cli-service` version that is invoking the plugin.
 
 
 ## assertCliServiceVersion
 
 - **Arguments**
-  - `{integer | string} range` - a semver range that `@vue/cli-service` needs to satisfy
+  - `{integer | string} range` - a semver range that `@vjcli/cli-service` needs to satisfy
 
 - **Usage**
 
-  This API exposes a simple way to declare the required project local `@vue/cli-service` version.
+  This API exposes a simple way to declare the required project local `@vjcli/cli-service` version.
 
   Nothing happens if the provided version is satisfied. Otherwise, an error will be thrown.
 

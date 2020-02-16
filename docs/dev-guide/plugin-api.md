@@ -4,13 +4,13 @@
 
 Type: `string`
 
-The version string for the `@vue/cli-service` version that is loading the plugin.
+The version string for the `@vjcli/cli-service` version that is loading the plugin.
 
 
 ## assertVersion
 
 - **Arguments**
-  - `{integer | string} range` - a semver range that `@vue/cli-service` needs to satisfy
+  - `{integer | string} range` - a semver range that `@vjcli/cli-service` needs to satisfy
 
 - **Usage**
 

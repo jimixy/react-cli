@@ -3,7 +3,7 @@ home: true
 heroImage: /favicon.png
 actionText: Введение →
 actionLink: /ru/guide/
-footer: MIT Licensed | Copyright © 2018-present Evan You
+footer: MIT Licensed | Copyright © 2018-present jimi、Vic
 ---
 
 <div class="features">

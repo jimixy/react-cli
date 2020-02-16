@@ -149,7 +149,7 @@ You can confirm that this change has taken place by examining the vue webpack co
 
 ## Inspecting the Project's Webpack Config
 
-Since `@vue/cli-service` abstracts away the webpack config, it may be more difficult to understand what is included in the config, especially when you are trying to make tweaks yourself.
+Since `@vjcli/cli-service` abstracts away the webpack config, it may be more difficult to understand what is included in the config, especially when you are trying to make tweaks yourself.
 
 `vue-cli-service` exposes the `inspect` command for inspecting the resolved webpack config. The global `vue` binary also provides the `inspect` command, and it simply proxies to `vue-cli-service inspect` in your project.
 
@@ -189,7 +189,7 @@ vue inspect --plugins
 Some external tools may need access to the resolved webpack config as a file, for example IDEs or command line tools that expect a webpack config path. In that case you can use the following path:
 
 ```
-<projectRoot>/node_modules/@vue/cli-service/webpack.config.js
+<projectRoot>/node_modules/@vjcli/cli-service/webpack.config.js
 ```
 
 This file dynamically resolves and exports the exact same webpack config used in `vue-cli-service` commands, including those from plugins and even your custom configurations.

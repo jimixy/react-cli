@@ -4,12 +4,12 @@
 
 Тип: `string`
 
-Строка с версией `@vue/cli-service` загружающей плагин.
+Строка с версией `@vjcli/cli-service` загружающей плагин.
 
 ## assertVersion
 
 - **Аргументы**
-  - `{integer | string} range` — semver диапазон, которому должен соответствовать `@vue/cli-service`
+  - `{integer | string} range` — semver диапазон, которому должен соответствовать `@vjcli/cli-service`
 
 - **Использование**
 

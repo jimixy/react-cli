@@ -11,8 +11,8 @@ This documentation is for `@vue/cli`. For the old `vue-cli`, see [here](https://
 Vue CLI is a full system for rapid Vue.js development, providing:
 
 - Interactive project scaffolding via `@vue/cli`.
-- Zero config rapid prototyping via `@vue/cli` + `@vue/cli-service-global`.
-- A runtime dependency (`@vue/cli-service`) that is:
+- Zero config rapid prototyping via `@vue/cli` + `@vjcli/cli-service-global`.
+- A runtime dependency (`@vjcli/cli-service`) that is:
   - Upgradeable;
   - Built on top of webpack, with sensible defaults;
   - Configurable via in-project config file;
@@ -32,7 +32,7 @@ The CLI (`@vue/cli`) is a globally installed npm package and provides the `vue` 
 
 ### CLI Service
 
-The CLI Service (`@vue/cli-service`) is a development dependency. It's an npm package installed locally into every project created by `@vue/cli`.
+The CLI Service (`@vjcli/cli-service`) is a development dependency. It's an npm package installed locally into every project created by `@vue/cli`.
 
 The CLI Service is built on top of [webpack](http://webpack.js.org/) and [webpack-dev-server](https://github.com/webpack/webpack-dev-server). It contains:
 
@@ -40,7 +40,7 @@ The CLI Service is built on top of [webpack](http://webpack.js.org/) and [webpac
 - An internal webpack config that is optimized for most apps;
 - The `vue-cli-service` binary inside the project, which comes with the basic `serve`, `build` and `inspect` commands.
 
-If you are familiar with [create-react-app](https://github.com/facebookincubator/create-react-app), `@vue/cli-service` is roughly the equivalent of `react-scripts`, although the feature set is different.
+If you are familiar with [create-react-app](https://github.com/facebookincubator/create-react-app), `@vjcli/cli-service` is roughly the equivalent of `react-scripts`, although the feature set is different.
 
 The section on [CLI Service](./cli-service.md) covers its detailed usage.
 

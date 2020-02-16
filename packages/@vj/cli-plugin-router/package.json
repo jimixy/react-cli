@@ -1,0 +1,34 @@
+{
+  "name": "@vjcli/cli-plugin-router",
+  "version": "0.0.0",
+  "description": "router plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimixy/react-cli.git",
+    "directory": "packages/@vjcli/cli-plugin-router"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "router"
+  ],
+  "author": "jimi、Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimixy/react-cli/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vjcli/cli-plugin-router#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vjcli/cli-shared-utils": "^0.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-test-utils": "^0.0.0"
+  },
+  "peerDependencies": {
+    "@vjcli/cli-service": "^3.0.0 || ^4.0.0-0"
+  }
+}

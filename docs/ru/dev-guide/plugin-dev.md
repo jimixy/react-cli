@@ -38,7 +38,7 @@ sidebarDepth: 3
 
 Чтобы плагин CLI мог использоваться в проекте Vue CLI, он должен соответствовать определённому соглашению по именованию `vue-cli-plugin-<name>` или `@scope/vue-cli-plugin-<name>`. Такой подход позволяет вашему плагину быть:
 
-- Обнаруживаемым `@vue/cli-service`;
+- Обнаруживаемым `@vjcli/cli-service`;
 - Обнаруживаемым другими разработчиками при поиске;
 - Устанавливаемым с помощью команд `vue add <name>` или `vue invoke <name>`.
 
@@ -134,7 +134,7 @@ module.exports = api => {
 
 ```ejs
 ---
-extend: '@vue/cli-service/generator/template/src/App.vue'
+extend: '@vjcli/cli-service/generator/template/src/App.vue'
 replace: !!js/regexp /<script>[^]*?<\/script>/
 ---
 
@@ -149,7 +149,7 @@ export default {
 
 ```ejs
 ---
-extend: '@vue/cli-service/generator/template/src/App.vue'
+extend: '@vjcli/cli-service/generator/template/src/App.vue'
 replace:
   - !!js/regexp /Добро пожаловать в приложение Vue\.js/
   - !!js/regexp /<script>[^]*?<\/script>/

@@ -26,7 +26,7 @@
 node --inspect-brk ./node_modules/.bin/vue-cli-service test:unit
 
 # Windows
-node --inspect-brk ./node_modules/@vue/cli-service/bin/vue-cli-service.js test:unit
+node --inspect-brk ./node_modules/@vjcli/cli-service/bin/vue-cli-service.js test:unit
 ```
 
 ## Конфигурация

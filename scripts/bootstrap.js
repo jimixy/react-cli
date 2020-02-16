@@ -2,7 +2,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const baseVersion = require('../packages/@vue/cli-service/package.json').version
+const baseVersion = require('../packages/@vjcli/cli-service/package.json').version
 
 const packagesDir = path.resolve(__dirname, '../packages/@vue')
 const files = fs.readdirSync(packagesDir)
@@ -27,16 +27,16 @@ files.forEach(pkg => {
       },
       'repository': {
         'type': 'git',
-        'url': 'git+https://github.com/vuejs/vue-cli.git'
+        'url': 'git+https://github.com/jimixy/react-cli.git'
       },
       'keywords': [
         'vue',
         'cli'
       ],
-      'author': 'Evan You',
+      'author': 'jimi、Vic',
       'license': 'MIT',
       'bugs': {
-        'url': 'https://github.com/vuejs/vue-cli/issues'
+        'url': 'https://github.com/jimixy/react-cli/issues'
       },
       'homepage': `https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/${pkg}#readme`
     }

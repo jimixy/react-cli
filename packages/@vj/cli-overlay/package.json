@@ -1,0 +1,28 @@
+{
+  "name": "@vj/cli-overlay",
+  "version": "0.0.0",
+  "description": "error overlay & dev server middleware for vue-cli",
+  "main": "dist/client.js",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimixy/react-cli.git",
+    "directory": "packages/@vjcli/cli-overlay"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "cli-overlay"
+  ],
+  "author": "jimi、Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimixy/react-cli/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vjcli/cli-overlay#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

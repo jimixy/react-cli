@@ -2,7 +2,7 @@
 
 ## Использование Binary
 
-Внутри проекта Vue CLI, `@vue/cli-service` устанавливает бинарник `vue-cli-service`. К нему можно получить доступ через `vue-cli-service` в npm-скриптах, или через `./node_modules/.bin/vue-cli-service` из терминала.
+Внутри проекта Vue CLI, `@vjcli/cli-service` устанавливает бинарник `vue-cli-service`. К нему можно получить доступ через `vue-cli-service` в npm-скриптах, или через `./node_modules/.bin/vue-cli-service` из терминала.
 
 Это то, что вы увидите в `package.json` проекта с пресетом настроек по умолчанию:
 
@@ -158,7 +158,7 @@ npx vue-cli-service build --skip-plugins @vue/cli-plugin-pwa
 
 ## Git хуки
 
-После установки `@vue/cli-service` также добавляется [yorkie](https://github.com/yyx990803/yorkie), который позволяет легко указывать Git хуки, используя поле `gitHooks` в файле `package.json`:
+После установки `@vjcli/cli-service` также добавляется [yorkie](https://github.com/yyx990803/yorkie), который позволяет легко указывать Git хуки, используя поле `gitHooks` в файле `package.json`:
 
 ```json
 {

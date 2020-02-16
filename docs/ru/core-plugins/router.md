@@ -1,4 +1,4 @@
-# @vue/cli-plugin-router
+# @vjcli/cli-plugin-router
 
 > Плагин маршрутизации для vue-cli
 

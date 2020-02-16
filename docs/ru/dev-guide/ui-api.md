@@ -978,12 +978,12 @@ export default {
 
 IPC означает коммуникацию между процессами. Эта система позволяет легко отправлять сообщения из дочерних процессов (например, задач!). И это довольно быстро и просто.
 
-> Для отображения данных в UI на панели управления webpack, команды `serve` и `build` из `@vue/cli-service` отправляют IPC-сообщения на сервер cli-ui nodejs, когда передаётся аргумент `--dashboard`.
+> Для отображения данных в UI на панели управления webpack, команды `serve` и `build` из `@vjcli/cli-service` отправляют IPC-сообщения на сервер cli-ui nodejs, когда передаётся аргумент `--dashboard`.
 
-В коде процесса (который может быть Webpack-плагином или скриптом задачи для nodejs), можно использовать класс `IpcMessenger` из `@vue/cli-shared-utils`:
+В коде процесса (который может быть Webpack-плагином или скриптом задачи для nodejs), можно использовать класс `IpcMessenger` из `@vjcli/cli-shared-utils`:
 
 ```js
-const { IpcMessenger } = require('@vue/cli-shared-utils')
+const { IpcMessenger } = require('@vjcli/cli-shared-utils')
 
 // Создание нового экземпляра IpcMessenger
 const ipc = new IpcMessenger()

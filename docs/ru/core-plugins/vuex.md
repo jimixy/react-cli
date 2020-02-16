@@ -1,4 +1,4 @@
-# @vue/cli-plugin-vuex
+# @vjcli/cli-plugin-vuex
 
 > Плагин vuex для vue-cli
 

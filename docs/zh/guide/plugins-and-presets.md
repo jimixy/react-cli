@@ -112,8 +112,8 @@ vue add eslint --config airbnb --lintOn save
       "config": "airbnb",
       "lintOn": ["save", "commit"]
     },
-    "@vue/cli-plugin-router": {},
-    "@vue/cli-plugin-vuex": {}
+    "@vjcli/cli-plugin-router": {},
+    "@vjcli/cli-plugin-vuex": {}
   }
 }
 ```

@@ -53,7 +53,7 @@ When running `vue invoke` / `vue add` / `vue upgrade`, there's now an [extra con
 When running `vue add vuex` or `vue add router`:
 
 - In v3, only `vuex` or `vue-router` will be added to the project;
-- In v4, there will also be `@vue/cli-plugin-vuex` or `@vue/cli-plugin-router` installed.
+- In v4, there will also be `@vjcli/cli-plugin-vuex` or `@vjcli/cli-plugin-router` installed.
 
 This currently does not make an actual difference for end-users, but such design allows us to add more features for Vuex and Vue Router users later.
 
@@ -62,10 +62,10 @@ For preset and plugin authors, there are several noteworthy changes in the two p
 - The default directory structure was changed:
   - `src/store.js` moved to `src/store/index.js`;
   - `src/router.js` renamed to `src/router/index.js`;
-- The `router` & `routerHistoryMode` options in `preset.json` are still supported for compatibility reasons. But it's now recommended to use `plugins: { '@vue/cli-plugin-router': { historyMode: true } }` for better consistency.
+- The `router` & `routerHistoryMode` options in `preset.json` are still supported for compatibility reasons. But it's now recommended to use `plugins: { '@vjcli/cli-plugin-router': { historyMode: true } }` for better consistency.
 - `api.hasPlugin('vue-router')` is no longer supported. It's now `api.hasPlugin('router')`.
 
-### `@vue/cli-service`
+### `@vjcli/cli-service`
 
 #### Whitespace handling in the template block
 
@@ -111,7 +111,7 @@ Previously in Vue CLI v3, we shipped with `sass-loader@7` by default.
 
 Recently `sass-loader@8` has been out and has changed its configuration format quite a lot. Here's the release notes: <https://github.com/webpack-contrib/sass-loader/releases/tag/v8.0.0>
 
-`@vue/cli-service` will continue to support `sass-loader@7` in v4, but we strongly recommend you to take a look at the v8 release and upgrade to the latest version.
+`@vjcli/cli-service` will continue to support `sass-loader@7` in v4, but we strongly recommend you to take a look at the v8 release and upgrade to the latest version.
 
 #### For Less Users
 
@@ -303,6 +303,6 @@ For a detailed changelog with regard to jsdom, see <https://github.com/jsdom/jsd
 - Use mochapack instead of mocha-webpack, see changelog at <https://github.com/sysgears/mochapack/releases>. This change is not likely to affect actual usage.
 - Upgraded to mocha 6, see [Mocha's changelog](https://github.com/mochajs/mocha/blob/master/CHANGELOG.md#600-0--2019-01-01) for more details.
 
-### `@vue/cli-service-global`
+### `@vjcli/cli-service-global`
 
-See breaking changes in the [`@vue/cli-service`](#vue-cli-service) & [`@vue/cli-plugin-eslint`](#vue-cli-plugin-eslint) packages.
+See breaking changes in the [`@vjcli/cli-service`](#vue-cli-service) & [`@vue/cli-plugin-eslint`](#vue-cli-plugin-eslint) packages.

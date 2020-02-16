@@ -53,7 +53,7 @@ vue upgrade
 При запуске `vue add vuex` или `vue add router`:
 
 - В версии 3, только `vuex` или `vue-router` добавляется в проект;
-- В версии 4, также устанавливается `@vue/cli-plugin-vuex` или `@vue/cli-plugin-router`.
+- В версии 4, также устанавливается `@vjcli/cli-plugin-vuex` или `@vjcli/cli-plugin-router`.
 
 В настоящее время это не привносит ничего особенного для конечных пользователей, но такой подход позволяет добавлять больше возможностей для пользователей Vuex и Vue Router позднее.
 
@@ -62,10 +62,10 @@ vue upgrade
 - Структура каталогов по умолчанию изменена:
   - `src/store.js` перемещён в `src/store/index.js`;
   - `src/router.js` перемещён в `src/router/index.js`;
-- Опции `router` и `routerHistoryMode` в файле `preset.json` по-прежнему поддерживаются для совместимости. Но рекомендуется использовать `plugins: { '@vue/cli-plugin-router': { historyMode: true } }` для консистентности.
+- Опции `router` и `routerHistoryMode` в файле `preset.json` по-прежнему поддерживаются для совместимости. Но рекомендуется использовать `plugins: { '@vjcli/cli-plugin-router': { historyMode: true } }` для консистентности.
 - `api.hasPlugin('vue-router')` больше не поддерживается. Теперь `api.hasPlugin('router')`.
 
-### `@vue/cli-service`
+### `@vjcli/cli-service`
 
 #### Обработка пробелов в шаблонах
 
@@ -111,7 +111,7 @@ vue upgrade
 
 Недавно вышел `sass-loader@8` в котором довольно сильно изменился формат конфигурации. Примечания к релизу: <https://github.com/webpack-contrib/sass-loader/releases/tag/v8.0.0>
 
-`@vue/cli-service` продолжает поддерживать `sass-loader@7` в v4, но настоятельно рекомендуем обратить внимание на релиз `sass-loader@8` и обновиться до последней версии.
+`@vjcli/cli-service` продолжает поддерживать `sass-loader@7` в v4, но настоятельно рекомендуем обратить внимание на релиз `sass-loader@8` и обновиться до последней версии.
 
 #### Для пользователей Less
 
@@ -294,6 +294,6 @@ module.exports = {
 - Теперь используется mochapack вместо mocha-webpack, см. историю изменений <https://github.com/sysgears/mochapack/releases>. Это изменение вряд ли повлияет на фактическое использование.
 - Обновление mocha до версии 6, см. [историю изменений Mocha](https://github.com/mochajs/mocha/blob/master/CHANGELOG.md#600-0--2019-01-01) для подробной информации.
 
-### `@vue/cli-service-global`
+### `@vjcli/cli-service-global`
 
-См. подробные изменения в пакетах [`@vue/cli-service`](#vue-cli-service) и [`@vue/cli-plugin-eslint`](#vue-cli-plugin-eslint).
+См. подробные изменения в пакетах [`@vjcli/cli-service`](#vue-cli-service) и [`@vue/cli-plugin-eslint`](#vue-cli-plugin-eslint).

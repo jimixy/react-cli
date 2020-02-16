@@ -1,0 +1,33 @@
+{
+  "name": "@vue/cli-plugin-e2e-cypress",
+  "version": "0.0.0",
+  "description": "e2e-cypress plugin for vue-cli",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimixy/react-cli.git",
+    "directory": "packages/@vue/cli-plugin-e2e-cypress"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "e2e-cypress"
+  ],
+  "author": "jimi、Vic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jimixy/react-cli/issues"
+  },
+  "homepage": "https://github.com/vuejs/vue-cli/tree/dev/packages/@vue/cli-plugin-e2e-cypress#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@vjcli/cli-shared-utils": "^0.0.0",
+    "cypress": "^3.8.3",
+    "eslint-plugin-cypress": "^2.8.1"
+  },
+  "peerDependencies": {
+    "@vjcli/cli-service": "^3.0.0 || ^4.0.0-0"
+  }
+}
